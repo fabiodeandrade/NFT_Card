@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+body p {
+    font-size: 18px;
+}
+
+.cardWrap {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.card {
+    width: 85%;
+    height: 550px;
+    border-radius: 15px;
+    background-color: hsl(215, 51%, 16%);
+    margin: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.541);
+}
+
+.img {
+    width: 85%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: red;
+    margin-bottom: 25px;
+}
+
+
+.img img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+
+    transition: all 0.6s;
+}
+
+.img img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card h1 {
+    color: white;
+
+}
+
+.title {
+    text-align: left;
+    font-size: 10px;
+
+    width: 85%;
+}
+
+.title h1:hover {
+    cursor: pointer;
+    transition: all ease 0.8s;
+    color: hsl(178, 100%, 50%);
+}
+
+.information {
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card .information p {
+    color: hsla(215, 52%, 70%, 0.582);
+    font-weight: lighter;
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.subInfos {
+    width: 85%;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+
+.subInfos p {
+    margin-left: 5px
+}
+
+.rightInfo {
+    display: flex;
+
+}
+
+.leftInfo {
+    display: flex;
+
+}
+
+.subInfos span {
+    color: hsl(178, 100%, 50%);
+}
+
+.subInfos p {
+    color: hsl(214, 27%, 44%);
+    font-size: 15px;
+}
+
+.downBar {
+    width: 85%;
+    border: thin solid hsla(215, 32%, 27%, 0.39);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    display: flex;
+    width: 85%;
+    justify-content: left;
+    align-content: left;
+    align-items: center;
+
+}
+
+.avatar img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.avatar span:hover {
+    cursor: pointer;
+    transition: all ease 0.8s;
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar p {
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 12px;
+}
+
+.avatar span {
+    color: white;
+    font-weight: bold;
+}
