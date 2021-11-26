@@ -18,7 +18,7 @@ Basta acessar o **[site](https://www.frontendmentor.io/)** escolher o desafio de
 O objetivo do desafio foi medir o quanto minha **teoria estava alinhada a prática**, acredito que isso seja uma das coisas mais importantes na hora de se estudar qualquer coisa, seja na area de tecnologia ou outra, pois isso no final das contas, vai trazer a segurança de saber distinguir:
 
 >
-> _"Eu sei sobre isso"_
+> _"Eu sei sobre isso"_ de
 > _"Eu sei **fazer** isso"_
 >
 
